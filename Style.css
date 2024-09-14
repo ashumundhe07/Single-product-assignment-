@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Light background */
+}
+
+/* Navigation Bar */
+header {
+    background-color: #003366; /* Dark Blue */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Product Section */
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.product-image img {
+    width: 300px;
+    height: auto;
+}
+
+.product-details {
+    margin-left: 40px;
+    max-width: 400px;
+}
+
+.product-details h1 {
+    color: #333333;
+    font-size: 28px;
+}
+
+.product-details p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product-details .price {
+    color: #E3170A; /* Vermilion */
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.buy-now {
+    display: inline-block;
+    background-color: #F7B32B; /* Honey Yellow */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.buy-now:hover {
+    background-color: #FCF6B1; /* Medium Champagne */
+    color: #333333;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #A9E5BB; /* Celadon */
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #003366;
+    font-size: 24px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial span {
+    color: #666666;
+    font-size: 14px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #F7B32B; /* Honey Yellow */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+  }
